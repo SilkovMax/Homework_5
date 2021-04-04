@@ -1,0 +1,298 @@
+152b
+<html>
+		<head><style>body { margin:0; padding:0px; background-color: #fff; }</style>
+		<script>
+		(function() {
+			let frame = window;
+			let cmpFrame;
+		  
+			const cmpCallbacks = {};		  
+			while(frame) {
+			  try {
+				if (frame.frames['__tcfapiLocator']) {
+				  cmpFrame = frame;
+				  break;
+				}
+			  } catch(ignore) {}
+		  
+			  if (frame === window.top) {
+				break;		  
+			  }
+		  
+			  frame = frame.parent;
+			}
+		  
+			window.__tcfapi = function(cmd, version, callback, arg) {
+			  if (!cmpFrame) {
+				callback({msg: 'CMP not found'}, false);
+			  } else {
+				const callId = Math.random() + '';
+				const msg = {
+				  __tcfapiCall: {
+					command: cmd,
+					parameter: arg,
+					version: version,
+					callId: callId,
+				  },
+				};
+		  
+				cmpCallbacks[callId] = callback;
+				cmpFrame.postMessage(msg, '*');
+			  }
+			};
+		  
+			function postMessageHandler(event) {
+			  let json = {};
+
+			  try {
+				json = typeof event.data === 'string' ? JSON.parse(event.data) : event.data;
+			  } catch (ignore) {}
+		  
+			  const payload = json.__tcfapiReturn;
+		  
+			  if (payload) {
+				if (typeof cmpCallbacks[payload.callId] === 'function') {
+				  cmpCallbacks[payload.callId](payload.returnValue, payload.success);
+				  cmpCallbacks[payload.callId] = null;
+				}
+			  }
+			}
+		  
+			window.addEventListener('message', postMessageHandler, false);
+		  
+		  }());
+		</script>
+		</head>
+		<body leftMargin="0" topMargin="0" marginwidth="0" marginheight="0" ondragstart="return false;" ondrop="return false;"><script>
+    (function(id) {
+        if (document.getElementById(id)) return;
+        var pbjsEl = document.createElement('script'); pbjsEl.type = 'text/javascript'; pbjsEl.id = id;
+        pbjsEl.async = true; var isHttps = 'https:' === document.location.protocol;
+        pbjsEl.src = '//hb.adpone.com/prebid_v4_21.js';
+        var pbjsTargetEl = document.getElementsByTagName('head')[0];
+        pbjsTargetEl.insertBefore(pbjsEl, pbjsTargetEl.firstChild);
+    })('prebid');
+    (function(){
+        const cmpRequired = parseInt('0');
+        var passbackTagHtml = '';
+        function unencodeHtmlContent(escapedHtml) {
+            var elem = document.createElement('div');
+            elem.innerHTML = escapedHtml;
+            var result = '';
+            for (var i = 0; i < elem.childNodes.length; ++i) {
+                result = result + elem.childNodes[i].nodeValue;
+            }
+            return result;
+        }
+        function getPlacementScriptElement(){
+            if (document.currentScript)
+                return document.currentScript;
+            else {
+                var scripts = document.getElementsByTagName('script');
+                var currentScript_2 = scripts[scripts.length - 1];
+                return currentScript_2;
+            }
+        }
+        function getQueryString(script){
+            var queryString = script.src.replace(/^[^\?]+\??/,'');
+            return '?'+queryString;
+        }
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, '\$&');
+            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            try {
+                return decodeURIComponent(results[2].replace(/\+/g, ' '));
+            }catch(err){
+                return null;
+            }
+        }
+        var plmntScriptElement = getPlacementScriptElement();
+        var _id = new Date().getTime();
+        var _placementFrmId = 'postbid_if_' + _id;
+        var adUnitSizes = [[300,250]];
+        var adUnitBids = [
+        {
+                bidder: "rubicon",
+                params: {
+                        accountId: "17210",
+                        siteId: "315066",
+                        zoneId: "1607382",
+                        sizes: "15",
+                        position: "atf",
+                        referrer: "cyberforum.ru"
+                }
+        },
+        {
+                bidder: "criteo",
+                params: {
+                        zoneId: "1491572"
+                }
+        },
+        {
+                bidder: "smartadserver",
+                params: {
+                        domain: "https://prg.smartadserver.com",
+                        siteId: "345373",
+                        pageId: "1203659",
+                        formatId: "71867"
+                }
+        },
+        {
+                bidder: "appnexus",
+                params: {
+                        placementId: "21068489"
+                }
+        },
+        {
+                bidder: "adform",
+                params: {
+                        mid: "790079"
+                }
+        },
+        {
+                bidder: "openx",
+                params: {
+                        unit: "541007743",
+                        delDomain: "adpone-d.openx.net"
+                }
+        },
+        {
+                bidder: "sovrn",
+                params: {
+                        tagid: "693281"
+                }
+        },
+        {
+                bidder: "between",
+                params: {
+                        w: "300",
+                        h: "250",
+                        s: "3950982"
+                }
+      
+1049
+  },
+        {
+                bidder: "connectad",
+                params: {
+                        networkId: "10047",
+                        siteId: "1038496"
+                }
+        }
+];
+        function getPlacementFrameId (){
+            return _placementFrmId;
+        }
+        function createPlacementIframe(id){
+            var frmEl = document.createElement('iframe');
+            frmEl.setAttribute('id', getPlacementFrameId());
+            frmEl.frameBorder = '0';
+            frmEl.scrolling = 'no';
+            frmEl.marginWidth = '0';
+            frmEl.marginHeight = '0';
+            frmEl.TOPMARGIN = '0';
+            frmEl.LEFTMARGIN = '0';
+            frmEl.ALLOWTRANSPARENCY = 'true';
+            frmEl.width = '0';
+            frmEl.height = '0';
+            return frmEl;
+        }
+        var plmntFrame = createPlacementIframe();
+        if (plmntScriptElement){
+            plmntScriptElement.parentNode.insertBefore(plmntFrame, plmntScriptElement);
+        }else {
+            return 0;
+        }
+        window.pbjs = window.pbjs || {};
+        pbjs.que = pbjs.que || [];
+        var adUnitCodeName = 'adpn-adtag-'  + _id;
+        pbjs.que.push(function() {
+            var adUnits = [{
+                code: adUnitCodeName,
+                sizes: adUnitSizes,
+                mediaTypes: {
+                    banner: {
+                        sizes: adUnitSizes
+                    }
+                },
+                bids: adUnitBids
+            }];
+            if (cmpRequired) {
+                pbjs.setConfig({
+                    consentManagement: {
+                        cmpApi: 'iab',
+                        timeout: 8000,
+                        allowAuctionWithoutConsent: true
+                    }
+                });
+            }
+
+            pbjs.setConfig({
+                userSync: {
+                    iframeEnabled: true,
+                    filterSettings: {
+                        iframe: {
+                            bidders: '*',
+                            filter: 'include'
+                        }
+                    }
+                },
+                schain: {
+                    validation: "strict",
+                    config: {
+                        ver:"1.0",
+                        complete: 1,
+                        nodes: [
+                            {
+                                "asi":"adpone.com",
+                                "sid":"a40cc036446e3a4a6da8",
+                                "hp":1
+                            }
+                        ]
+                    }
+                }
+            });
+            pbjs.bidderSettings = {
+                smartadserver: {
+                    bidCpmAdjustment : function(bidCpm) {
+                        return bidCpm * 0.88 ;
+                    }
+                }
+            };
+            pbjs.addAdUnits(adUnits);
+            pbjs.requestBids({
+                adUnitCodes: [adUnitCodeName],
+                timeout: 2000,
+                bidsBackHandler: function() {
+                    var iframe = document.getElementById(getPlacementFrameId());
+                    var iframeDoc = iframe.contentWindow.document;
+                    var params = pbjs.getAdserverTargetingForAdUnitCode(adUnitCodeName);
+                    if(params && params['hb_adid']){
+                        pbjs.renderAd(iframeDoc, params['hb_adid']);
+                    } else {
+                        if (passbackTagHtml) {
+                            iframe.width = adUnitSizes[0][0];
+                            iframe.height = adUnitSizes[0][1];
+                            iframeDoc.write(unencodeHtmlContent(passbackTagHtml));
+                            iframeDoc.close();
+                        } else {
+                            if (iframe) {
+                                iframe.parentNode.removeChild(iframe);
+                            }
+                        }
+                    }
+                }
+            });
+        });
+    })();
+    var gd = '2021-2-18 15:41:55';
+</script>
+
+		</body>
+		</html>
+0
+

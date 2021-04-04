@@ -1,0 +1,10 @@
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[Tickets]
+SnapshotIndex=I1_Tickets
+[Delete]
+SnapshotIndex=I1_Delete
+[vuser_end]
+SnapshotIndex=I1_vuser_end
+[Inter]
+SnapshotIndex=I1_Inter

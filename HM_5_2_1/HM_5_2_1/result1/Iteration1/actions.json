@@ -1,0 +1,122 @@
+[
+    {
+        "actionName": "vuser_init",
+        "steps": [
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: WebTours",
+                "infFile": "t3.inf",
+                "time": 1617562745746
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t4.inf",
+                "time": 1617562745830
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "Tickets",
+        "steps": [
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t5.inf",
+                "time": 1617562745963
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t6.inf",
+                "time": 1617562746012
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t7.inf",
+                "time": 1617562746099
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t8.inf",
+                "time": 1617562746186
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t9.inf",
+                "time": 1617562746306
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t10.inf",
+                "time": 1617562746351
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t11.inf",
+                "time": 1617562746441
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t12.inf",
+                "time": 1617562746526
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t13.inf",
+                "time": 1617562746642
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t14.inf",
+                "time": 1617562746687
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t15.inf",
+                "time": 1617562746775
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t16.inf",
+                "time": 1617562746862
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "Inter",
+        "steps": [
+            {
+                "stepId": "STEP17",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t17.inf",
+                "time": 1617562747020
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "Delete",
+        "steps": [
+            {
+                "stepId": "STEP18",
+                "stepName": "Submit Data: itinerary.pl",
+                "infFile": "t18.inf",
+                "time": 1617562747121
+            }
+        ],
+        "transactions": []
+    }
+]
