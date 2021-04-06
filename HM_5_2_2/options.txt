@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Valera\Desktop\MaxSilkov\HM5\HM_5_2_1
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\valera\desktop\maxsilkov\hm5\hm_5_2_1\\logfile.log
+c:\users\valera\desktop\maxsilkov\hm5\hm_5_2_1\\combined_HM_5_2_1.c
+c:\users\valera\desktop\maxsilkov\hm5\hm_5_2_1\\pre_cci.c

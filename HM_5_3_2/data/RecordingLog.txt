@@ -1,0 +1,335 @@
+[API Trapper      (1ac0:2b30)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      ( b08:13d4)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (2a2c:33f8)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (2a2c:1b34)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2a2c:1b34)] Load Network Traffic Analyzers:
+[Network Analyzer (2a2c:1b34)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2a2c:1b34)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (2a2c:1b34)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2a2c:1b34)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (2a2c:1b34)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (2a2c:1b34)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2a2c:1b34)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2a2c:1b34)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2a2c:3360)] Address lookup for DESKTOP-AJT3LBQ = 192.168.56.1
+[Net An. Debug    (2a2c:3360)] IP address belongs to the VirtualBox, taking the another interface with ip=192.168.0.73
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (2a2c:1b34)] Address lookup for DESKTOP-AJT3LBQ = 192.168.56.1
+[Network Analyzer (2a2c:1b34)] Request Connection: Remote Server @ 173.194.73.94:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (2a2c:1b34)] Address lookup for DESKTOP-AJT3LBQ = 192.168.56.1
+[Network Analyzer (2a2c:1b34)] Request Connection: Remote Server @ 64.233.164.95:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (2a2c:250c)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (2a2c:250c)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (2a2c:3360)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=89"   
+[Network Analyzer (2a2c:3360)]   (Sid:  1) Client -> Server @ : 449 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  1) Server -> Client : 327 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3204)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (2a2c:1b34)] Address lookup for DESKTOP-AJT3LBQ = 192.168.56.1
+[Network Analyzer (2a2c:1b34)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (2a2c:3204)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (2a2c:3360)] "GET /WebTours/"   
+[Network Analyzer (2a2c:3360)]   (Sid:  3) Client -> Server @ : 639 bytes (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  3) Server -> Client : 665 bytes  (Service=HTTP)
+[Network Analyzer (2a2c:1b34)] Address lookup for DESKTOP-AJT3LBQ = 192.168.56.1
+[Network Analyzer (2a2c:1b34)] Request Connection: Remote Server @ 142.250.150.94:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (2a2c:1b34)] Address lookup for DESKTOP-AJT3LBQ = 192.168.56.1
+[Network Analyzer (2a2c:1b34)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (2a2c:3360)] "GET /WebTours/header.html"   
+[Network Analyzer (2a2c:3360)]   (Sid:  3) Client -> Server @ : 676 bytes (Service=HTTP)
+[Web Request      (2a2c:3360)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (2a2c:3360)]   (Sid:  5) Client -> Server @ : 687 bytes (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  3) Server -> Client : 1008 bytes  (Service=HTTP)
+[Web Request      (2a2c:3360)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer (2a2c:3360)]   (Sid:  3) Client -> Server @ : 592 bytes (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  3) Server -> Client : 899 bytes  (Service=HTTP)
+[Network Analyzer (2a2c:1600)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (2a2c:3360)]   (Sid:  5) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  5) Server -> Client : 5 bytes  (Service=HTTP)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (2a2c:3360)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer (2a2c:3360)]   (Sid:  5) Connection Terminated (by Server)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (2a2c:1600)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (2a2c:3360)] "GET /safebrowsing/csd/client_model_v5_variation_6.pb"   
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Client -> Server @ : 380 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 71 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 867 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1387 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  4) Server -> Client : 1261 bytes (SSL) (Service=HTTP)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (2a2c:1b34)] Address lookup for DESKTOP-AJT3LBQ = 192.168.56.1
+[Network Analyzer (2a2c:1b34)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      (2a2c:3360)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (2a2c:3360)]   (Sid:  6) Client -> Server @ : 728 bytes (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  6) Server -> Client : 1753 bytes  (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  6) Server -> Client : 5 bytes  (Service=HTTP)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (2a2c:3360)]   (Sid:  6) Connection Terminated (by Server)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (2a2c:1b34)] Address lookup for DESKTOP-AJT3LBQ = 192.168.56.1
+[Network Analyzer (2a2c:1b34)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (2a2c:3360)] "GET /WebTours/home.html"   
+[Network Analyzer (2a2c:3360)]   (Sid:  7) Client -> Server @ : 724 bytes (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  7) Server -> Client : 1661 bytes  (Service=HTTP)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (2a2c:3360)]   (Sid:  7) Connection Terminated (by Server)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (2a2c:1b34)] Address lookup for DESKTOP-AJT3LBQ = 192.168.56.1
+[Network Analyzer (2a2c:1b34)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      (2a2c:3360)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer (2a2c:3360)]   (Sid:  8) Client -> Server @ : 593 bytes (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  8) Server -> Client : 4488 bytes  (Service=HTTP)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (2a2c:3360)]   (Sid:  8) Connection Terminated (by Server)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (2a2c:1b34)] Address lookup for DESKTOP-AJT3LBQ = 192.168.56.1
+[Network Analyzer (2a2c:1b34)] Request Connection: Remote Server @ 64.233.165.95:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (2a2c:1b34)] Address lookup for DESKTOP-AJT3LBQ = 192.168.56.1
+[Network Analyzer (2a2c:1b34)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (2a2c:1660)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (2a2c:1660)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2a2c:1b34)] Address lookup for DESKTOP-AJT3LBQ = 192.168.56.1
+[Web Request      (2a2c:3360)] "GET /v1/pages/ChRDaHJvbWUvODkuMC40Mzg5LjExNBIXCU35IjnBRbgwEgUN541ADhIFDc5BTHo=?alt=proto"   
+[Network Analyzer (2a2c:3360)]   (Sid:  9) Client -> Server @ : 535 bytes (SSL)(Service=HTTP)
+[Web Request      (2a2c:3360)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (2a2c:3360)]   (Sid: 10) Client -> Server @ : 982 bytes (Service=HTTP)
+[Network Analyzer (2a2c:1b34)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      (2a2c:3360)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (2a2c:3360)]   (Sid: 11) Client -> Server @ : 624 bytes (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 11) Server -> Client : 977 bytes  (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid:  9) Server -> Client : 612 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 10) Server -> Client : 847 bytes  (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 10) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (2a2c:3360)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (2a2c:3360)]   (Sid: 10) Client -> Server @ : 833 bytes (Service=HTTP)
+[Web Request      (2a2c:3360)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (2a2c:3360)]   (Sid: 11) Client -> Server @ : 828 bytes (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 11) Server -> Client : 1153 bytes  (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 11) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 10) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 10) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (2a2c:3360)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer (2a2c:3360)]   (Sid: 10) Client -> Server @ : 742 bytes (Service=HTTP)
+[Web Request      (2a2c:3360)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer (2a2c:3360)]   (Sid: 11) Client -> Server @ : 744 bytes (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 11) Server -> Client : 1030 bytes  (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 10) Server -> Client : 1024 bytes  (Service=HTTP)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (2a2c:3360)]   (Sid: 11) Connection Terminated (by Server)
+[Network Analyzer (2a2c:3360)]   (Sid: 10) Connection Terminated (by Server)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (2a2c:1b34)] Address lookup for DESKTOP-AJT3LBQ = 192.168.56.1
+[Network Analyzer (2a2c:1b34)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (2a2c:1b34)] Address lookup for DESKTOP-AJT3LBQ = 192.168.56.1
+[Web Request      (2a2c:3360)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer (2a2c:3360)]   (Sid: 12) Client -> Server @ : 742 bytes (Service=HTTP)
+[Network Analyzer (2a2c:1b34)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (2a2c:3360)]   (Sid: 12) Server -> Client : 987 bytes  (Service=HTTP)
+[Web Request      (2a2c:3360)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer (2a2c:3360)]   (Sid: 13) Client -> Server @ : 742 bytes (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 13) Server -> Client : 1050 bytes  (Service=HTTP)
+[Web Request      (2a2c:3360)] "GET /favicon.ico"   
+[Network Analyzer (2a2c:3360)]   (Sid: 13) Client -> Server @ : 703 bytes (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 13) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (2a2c:1b34)] Address lookup for DESKTOP-AJT3LBQ = 192.168.56.1
+[Network Analyzer (2a2c:1b34)] Request Connection: Remote Server @ 64.233.161.188:5228   (Service=)  (Sid= 14)  PROXIED!
+[API Trapper      ( f50:105c)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (2a2c:1b34)] Address lookup for DESKTOP-AJT3LBQ = 192.168.56.1
+[Network Analyzer (2a2c:1b34)] Request Connection: Remote Server @ 142.250.150.94:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (2a2c:1ee0)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (2a2c:1ee0)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2a2c:3360)]   (Sid: 14) Client -> Server @ : 192 bytes (SSL)
+[Network Analyzer (2a2c:3360)]   (Sid: 14) Server -> Client : 1 bytes (SSL)
+[Network Analyzer (2a2c:3360)]   (Sid: 14) Server -> Client : 66 bytes (SSL)
+[Network Analyzer (2a2c:3360)]   (Sid: 14) Server -> Client : 12 bytes (SSL)
+[Network Analyzer (2a2c: 6e0)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Net An. Error    (2a2c: 6e0)] SSLAccept(ssl_id = 2995213081104 = 000002B9609C9A10) Failed, ctx = 000002B95D2571C0, err = "SSLv3/TLS write server done", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (2a2c: 6e0)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2a2c:1b34)] Address lookup for DESKTOP-AJT3LBQ = 192.168.56.1
+[Network Analyzer (2a2c:1b34)] Request Connection: Remote Server @ 142.250.150.94:80   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (2a2c:3360)]   (Sid: 16) Client -> Server @ : 1130 bytes (Service=HTTP)
+[Web Request      (2a2c:3360)] "POST /service/update2/json?cup2key=10:1293134218&cup2hreq=12246c739e8c0ac1e5adbadcc0cab92928dff08bf451ffe9dfac96ada9c81860"   
+[Network Analyzer (2a2c:3360)]   (Sid: 16) Client -> Server @ : 6769 bytes (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 16) Server -> Client : 1085 bytes  (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 16) Server -> Client : 778 bytes  (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer (2a2c:3360)]   (Sid: 12) Connection Terminated (by Server)
+[Network Analyzer (2a2c:3360)]   (Sid: 13) Connection Terminated (by Server)
+[API Trapper      (1c30:3124)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (2a2c:1b34)] Address lookup for DESKTOP-AJT3LBQ = 192.168.56.1
+[Network Analyzer (2a2c:1b34)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (2a2c:1b34)] Address lookup for DESKTOP-AJT3LBQ = 192.168.56.1
+[Web Request      (2a2c:3360)] "GET /cgi-bin/welcome.pl?page=itinerary"   
+[Network Analyzer (2a2c:3360)]   (Sid: 17) Client -> Server @ : 870 bytes (Service=HTTP)
+[Network Analyzer (2a2c:1b34)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (2a2c:3360)]   (Sid: 17) Server -> Client : 814 bytes  (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 17) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (2a2c:3360)] "GET /cgi-bin/nav.pl?page=menu&in=itinerary"   
+[Network Analyzer (2a2c:3360)]   (Sid: 17) Client -> Server @ : 855 bytes (Service=HTTP)
+[Web Request      (2a2c:3360)] "GET /cgi-bin/itinerary.pl"   
+[Network Analyzer (2a2c:3360)]   (Sid: 18) Client -> Server @ : 838 bytes (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 18) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 18) Server -> Client : 875 bytes  (Service=HTTP)
+[Web Request      (2a2c:3360)] "GET /WebTours/images/cancelreservation.gif"   
+[Network Analyzer (2a2c:3360)]   (Sid: 18) Client -> Server @ : 740 bytes (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 17) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 17) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 18) Server -> Client : 1129 bytes  (Service=HTTP)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (2a2c:3360)]   (Sid: 18) Connection Terminated (by Server)
+[Network Analyzer (2a2c:3360)]   (Sid: 17) Connection Terminated (by Server)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (2a2c:1b34)] Address lookup for DESKTOP-AJT3LBQ = 192.168.56.1
+[Network Analyzer (2a2c:1b34)] Request Connection: Remote Server @ 64.233.165.95:443   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (2a2c:28a8)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[API Trapper      ( 5d0:2228)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (2a2c:1b34)] Address lookup for DESKTOP-AJT3LBQ = 192.168.56.1
+[Network Analyzer (2a2c:1b34)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (2a2c:1b34)] Address lookup for DESKTOP-AJT3LBQ = 192.168.56.1
+[Network Analyzer (2a2c:1b34)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 21)  PROXIED!
+[Web Request      (2a2c:3360)] "GET /WebTours/images/cancelallreservations.gif"   
+[Network Analyzer (2a2c:3360)]   (Sid: 20) Client -> Server @ : 744 bytes (Service=HTTP)
+[Web Request      (2a2c:3360)] "GET /WebTours/images/in_itinerary.gif"   
+[Network Analyzer (2a2c:3360)]   (Sid: 21) Client -> Server @ : 752 bytes (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 20) Server -> Client : 1041 bytes  (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 21) Server -> Client : 1031 bytes  (Service=HTTP)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (2a2c:3360)]   (Sid: 20) Connection Terminated (by Server)
+[Network Analyzer (2a2c:3360)]   (Sid: 21) Connection Terminated (by Server)
+[Net An. Warning  (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (2a2c:1b34)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (2a2c:1b34)] Address lookup for DESKTOP-AJT3LBQ = 192.168.56.1
+[Network Analyzer (2a2c:1b34)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (2a2c:28a8)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2a2c:1b34)] Address lookup for DESKTOP-AJT3LBQ = 192.168.56.1
+[Web Request      (2a2c:3360)] "GET /v4/threatListUpdates:fetch?$req=Ch0KDGdvb2dsZWNocm9tZRINODkuMC40Mzg5LjExNBopCAUQARobCg0IBRAGGAEiAzAwMTABEMj0ChoCGAkJvDi2IgQgASACKAEaKQgBEAEaGwoNCAEQBhgBIgMwMDEwARCf2ggaAhgJbr1W6SIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQ1c8IGgIYCU672UAiBCABIAIoARopCAcQARobCg0IBxAGGAEiAzAwMTABEMCUCRoCGAnOn5tLIgQgASACKAEaJwgBEAEaGQoNCAEQBhgBIgMwMDEwAxAUGgIYCcxdPEUiBCABIAIoAxooCAEQCBoaCg0IARAIGAEiAzAwMTAEEOweGgIYCYI8H_siBCABIAIoBBonCAkQARoZCg0ICRAGGAEiAzAwMTAGEAMaAhgJB12pKSIEIAEgAigGGigIDxABGhoKDQgPEAYYASIDMDAxMAEQh2AaAhgJ4f1LfCIEIAEgAigBGicIChAIGhkKDQgKEAgYASIDMDAxMAEQBhoCGAkD4XB1IgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAfGgIYCSeXu5EiBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABEOYLGgIYCT1NncIiBCABIAIoARopCA0QARobCg0IDRAGGAEiAzAwMTABEOSGARoCGAlI_Fe2IgQgASACKAEaKQgOEAEaGwoNCA4QBhgBIgMwMDEwARDnpwUaAhgJUXTRmiIEIAEgAigBGigIEBABGhoKDQgQEAYYASIDMDAxMAEQ7QkaAhgJ3kQjIiIEIAEgAigBIgIIAQ==&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (2a2c:3360)]   (Sid: 19) Client -> Server @ : 1281 bytes (SSL)(Service=HTTP)
+[Web Request      (2a2c:3360)] "POST /cgi-bin/itinerary.pl"   
+[Network Analyzer (2a2c:3360)]   (Sid: 22) Client -> Server @ : 1134 bytes (Service=HTTP)
+[Network Analyzer (2a2c:1b34)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 23)  PROXIED!
+[Web Request      (2a2c:3360)] "GET /WebTours/images/home.gif"   
+[Network Analyzer (2a2c:3360)]   (Sid: 23) Client -> Server @ : 744 bytes (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 23) Server -> Client : 987 bytes  (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 19) Server -> Client : 1343 bytes (SSL) (Service=HTTP)
+[Web Request      (2a2c:3360)] "GET /v4/fullHashes:find?$req=Ch0KDGdvb2dsZWNocm9tZRINODkuMC40Mzg5LjExNBIbCg0IBRAGGAEiAzAwMTABEMj0ChoCGAkJvDi2EhsKDQgBEAYYASIDMDAxMAEQn9oIGgIYCW69VukSGwoNCAMQBhgBIgMwMDEwARDVzwgaAhgJTrvZQBIbCg0IBxAGGAEiAzAwMTABEMCUCRoCGAnOn5tLEhkKDQgBEAYYASIDMDAxMAMQFBoCGAnMXTxFEhoKDQgBEAgYASIDMDAxMAQQ7B4aAhgJgjwf-xIZCg0ICRAGGAEiAzAwMTAGEAMaAhgJB12pKRIaCg0IDxAGGAEiAzAwMTABEIdgGgIYCeH9S3wSGQoNCAoQCBgBIgMwMDEwARAGGgIYCQPhcHUSGQoNCAkQBhgBIgMwMDEwARAfGgIYCSeXu5ESGgoNCAgQBhgBIgMwMDEwARDmCxoCGAk9TZ3CEhsKDQgNEAYYASIDMDAxMAEQ5IYBGgIYCUj8V7YSGwoNCA4QBhgBIgMwMDEwARDnpwUaAhgJUXTRmhIaCg0IEBAGGAEiAzAwMTABEO0JGgIYCd5EIyIabAgBCAMIBQgGCAcICAgJCAoIDQgOCA8IEBABEAgaIgogaW5sZ2RlbGxmYmxwcGxjb2dqZmVkbGhqbnBnYWZuaWEaIgogb25ia29wYW9lbWFjaGZnbGhscG9taGJwb2ZlcGZwb20gASADIAQgBg==&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (2a2c:3360)]   (Sid: 19) Client -> Server @ : 1153 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 22) Server -> Client : 3983 bytes  (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 22) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 19) Server -> Client : 839 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 19) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2a2c:1b34)] Address lookup for DESKTOP-AJT3LBQ = 192.168.56.1
+[Network Analyzer (2a2c:1b34)] Request Connection: Remote Server @ 173.194.222.136:443   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (2a2c:1b34)] Address lookup for DESKTOP-AJT3LBQ = 192.168.56.1
+[Network Analyzer (2a2c:1b34)] Request Connection: Remote Server @ 173.194.222.136:443   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (2a2c:25b0)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (2a2c:25b0)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (2a2c:3360)] "POST /safebrowsing/clientreport/crx-list-info?client=googlechrome&appver=89.0.4389.114&pver=4.0&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (2a2c:3360)]   (Sid: 24) Client -> Server @ : 725 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2a2c: d9c)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (2a2c: d9c)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2a2c:3360)]   (Sid: 24) Server -> Client : 409 bytes (SSL) (Service=HTTP)
+[Web Request      (2a2c:3360)] "POST /safebrowsing/clientreport/crx-list-info?client=googlechrome&appver=89.0.4389.114&pver=4.0&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (2a2c:3360)]   (Sid: 25) Client -> Server @ : 725 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2a2c:3360)]   (Sid: 25) Server -> Client : 409 bytes (SSL) (Service=HTTP)

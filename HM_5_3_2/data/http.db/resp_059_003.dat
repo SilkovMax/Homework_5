@@ -1,0 +1,26 @@
+{
+    "name": "Cyberforum main",
+    "position": "fixed",
+    "width":400,
+    "height":225,
+    "reload":true,
+    "flip":"random",
+    "time":40000,
+    "maxheight":250,
+    "list":[
+        {   
+            "type":"adfox",
+            "device":["desktop", "tablet", "phone"],
+            "weight": 100,
+            "params":{
+                "ownerId": 252227,
+                "containerId": "adfox_161366458096121749",
+                "params": {
+                    "pp": "g",
+                    "ps": "eujs",
+                    "p2": "y"
+                }
+            }
+        }
+    ]
+}
